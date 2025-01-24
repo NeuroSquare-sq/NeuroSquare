@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroSquare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-content" style="display: flex; align-items: center; gap: 10px;">
+                <img src="logo.png" alt="NeuroSquare Logo" class="logo" style="width: 50px; height: 50px;">
+            <h1>NeuroSquare</h1>
+        </div>
+        <nav>
+            <a href="#">Главная</a>
+            <a href="#">Чуть чуть о нас</a>
+            <a href="#">Чем мы занимаемся</a>
+            <a href="#">Контакты</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>приветствую на нашей странице</h2>
+        <p>мы занимаемся исследованиями и разработкой устройств в сфере нейротехнологий</p>
+
+        <section id="about">
+            <h3>О нас</h3>
+            <p>В нашей комманде 4 человека, как можно догадаться из названия: два человека отвечающие за сбор информации, программист и физиолог(я), действительно странно что я делал этот сайт.  </p>
+        </section>
+
+        <section id="services">
+            <h3>Чем мы занимаемся</h3>
+            <ul>
+                <li>разработка устройств</li>
+                <li>программирование устройств и программ</li>
+                <li>исследования в области нейротехнологий и физиологии</li>
+                
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h3>Portfolio</h3>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <p>проект 1</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 NeuroSquare. Все права защищены.</p>
+        <p>Follow us on:
+            <a href="t.me/NeuroSquare">telrgram</a> |
+
+        </p>
+    </footer>
+</body>
+</html>
